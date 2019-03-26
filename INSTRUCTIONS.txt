@@ -1,0 +1,13 @@
+------------------------------
+        INSTRUCTIONS
+------------------------------
+
+Open CHALLENGES.py and choose a challenge you like.
+Create a function in work_file.py and make sure it works. 
+You are allowed to add variables, functions, classes, etc. as long as you keep the name of the main function the same.
+So if you need to create a function 'is_prime()' you have to call that function 'is_prime()', 
+but you are allowed to add more functions or global variables that you call trough that function.
+Once the function is done you open test.py and enter the id of the challenge you did.
+It will now test if the function works. This is why it's important to use the right name.
+If it doesn't work it will tell you what doesn't work.
+If it works it will tell you it works.
