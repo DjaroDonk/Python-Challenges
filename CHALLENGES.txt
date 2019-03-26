@@ -1,0 +1,22 @@
+----- Challenge 01 -----
+id: add
+difficulty: 1/10
+Create a function 'add(x,y)':
+If x and y are integers or floats it should return the sum of x and y
+If x and y are strings they should be put together into one string
+If x and y are lists their items should be put together into one list
+Otherwise a TypeError must be raised
+
+---- Challenge 02 ----
+id: merge
+difficulty: 3/10
+Create a function 'merge(x,y)':
+If x and y are dictionaries their items should be put together into one dictionary
+Otherwise a TypeError must be raised
+
+---- Challenge 03 ----
+id: digit_sum
+difficulty: 2/10
+Create a function 'digit_sum(x)':
+If x is an int it should return the sum of all of x's digits
+Otherwise a TypeError must be raised

@@ -2,7 +2,7 @@
         INSTRUCTIONS
 ------------------------------
 
-Open CHALLENGES.py and choose a challenge you like.
+Open CHALLENGES.txt and choose a challenge you like.
 Create a function in work_file.py and make sure it works. 
 You are allowed to add variables, functions, classes, etc. as long as you keep the name of the main function the same.
 So if you need to create a function 'is_prime()' you have to call that function 'is_prime()', 
