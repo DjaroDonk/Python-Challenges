@@ -110,15 +110,15 @@ def test_is_prime():
     test_func(work_file.is_prime,"is_prime",test_cases)
     # Explanation in test_func
 
-id_to_func = {'add':test_add,\
-              'merge':test_merge,\
-              'digit_sum':test_digit_sum,\
-              'new_tuple':test_new_tuple,\
-              'sqrt':test_sqrt,\
-              'gcd':test_gcd,\
-              'lcm':test_lcm,\
-              'distance_2d':test_distance_2d,\
-              'distance_3d':test_distance_3d,\
+id_to_func = {'add':test_add,
+              'merge':test_merge,
+              'digit_sum':test_digit_sum,
+              'new_tuple':test_new_tuple,
+              'sqrt':test_sqrt,
+              'gcd':test_gcd,
+              'lcm':test_lcm,
+              'distance_2d':test_distance_2d,
+              'distance_3d':test_distance_3d,
               'is_prime':test_is_prime}
 
 def main_loop():
