@@ -1,22 +1,62 @@
------ Challenge 01 -----
+---- Challenge 01 ----
 id: add
 difficulty: 1/10
 Create a function 'add(x,y)':
 If x and y are integers or floats it should return the sum of x and y
 If x and y are strings they should be put together into one string
 If x and y are lists their items should be put together into one list
-Otherwise a TypeError must be raised
 
 ---- Challenge 02 ----
 id: merge
 difficulty: 3/10
 Create a function 'merge(x,y)':
-If x and y are dictionaries their items should be put together into one dictionary
-Otherwise a TypeError must be raised
+If x and y are dictionaries their items should be put tqogether into one dictionary
 
 ---- Challenge 03 ----
 id: digit_sum
 difficulty: 2/10
 Create a function 'digit_sum(x)':
 If x is an int it should return the sum of all of x's digits
-Otherwise a TypeError must be raised
+if x is a negative numbers it should just remove the - and continue as normal
+
+---- Challenge 04 ----
+id: new_tuple
+difficulty: 2/10
+Create a function 'new_tuple' that takes all arguments and puts them into a tuple.
+So 'new_tuple(1,4,2,"foo")' should return the tuple '(1,4,2,"foo")'
+
+---- Challenge 05 ----
+id: sqrt
+difficulty: 1/10
+Create a function 'sqrt(x)' that returns the square root of x
+
+---- Challenge 06 ----
+id: gcd
+difficulty: 4/10
+Create a function gcd(a, b) that returns the greatest common divisor of a and b
+
+---- Challenge 07 ----
+id: lcm
+difficulty: 5/10
+Create a function lcm(a,b) that returns the least common multiple of a and b
+
+---- Challenge 08 ----
+id: distance_2d
+difficulty: 4/10
+Create a function 'distance_2d(x,y)':
+x and y are tuples with 2-dimensional coordinates.
+distance_2d calculates the distance between them.
+Look at image_1.png for an example
+
+---- Challenge 09 ----
+id: distance_3d
+difficulty: 6/10
+Create a function 'distance_3d(x,y)':
+x and y are tuples with 3-dimensional coordinates.
+distance_3d calculates the distance between them.
+
+---- Challenge 10 ----
+id: is_prime
+difficulty: 4/10
+Create a function 'is_prime(x)' that returns True if x is prime and False if x isn't prime
+
