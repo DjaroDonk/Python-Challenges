@@ -60,3 +60,12 @@ id: is_prime
 difficulty: 4/10
 Create a function 'is_prime(x)' that returns True if x is prime and False if x isn't prime
 
+---- Challenge 11 ----
+id: robot_position
+difficulty: 4/10
+Create a function robot_position(starting_position,instructions):
+starting_position is a tuple with a 2-dimensional coordinate.
+instructions is a list of instructions "UP", "RIGHT", "LEFT", "DOWN"
+The robot starts at starting_position and then moves 1 unit up, down, left, or right, 
+depending on the instructions.
+See image_2.png for an example

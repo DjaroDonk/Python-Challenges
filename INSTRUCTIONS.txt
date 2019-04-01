@@ -11,7 +11,7 @@ Once the function is done you open test.py and enter the id of the challenge you
 It will now test if the function works. This is why it's important to use the right name.
 If it doesn't work it will tell you what doesn't work.
 If it works it will tell you it works.
-Using the internet to get answers isn't against the rule. 
+Using the internet to get answers isn't against the rules. 
 It's actually recommended, as some challenges use obscure maths.
 You are only allowed to use the following modules:
 
@@ -21,3 +21,4 @@ You are only allowed to use the following modules:
 
 random
 time
+sys

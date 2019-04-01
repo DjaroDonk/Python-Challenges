@@ -42,3 +42,12 @@ def is_prime(x):
         if x%i==0:
             return(False)
     return(True)
+
+def robot_position(starting_position,instructions):
+    instruction_to_pos = {"up":[0,1],"right":[1,0],"down":[0,-1],"left":[-1,0]}
+    robot_pos = starting_position
+    for instruction in instructions:
+        direction = instruction_to_pos[instruction.lower()]
+        robot_pos = (robot_pos[0]+direction[0],robot_pos[1]+direction[1])
+    return(robot_pos)
+        

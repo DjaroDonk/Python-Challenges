@@ -105,9 +105,15 @@ def test_distance_3d():
     # Explanation in test_func
 
 def test_is_prime():
-    # Tests the 'is_primed' function
+    # Tests the 'is_prime' function
     test_cases = [[[9],[1],[0],[7],[11],[28]],[False,False,False,True,True,False]]
     test_func(work_file.is_prime,"is_prime",test_cases)
+    # Explanation in test_func
+
+def test_robot_position():
+    # Tests the 'robot_position' function
+    test_cases = [[[(0,0),["UP","UP"]],[(1,1),["UP","DOWN","LEFT","RIGHT"]]],[(0,2),(1,1)]]
+    test_func(work_file.robot_position,"robot_position",test_cases)
     # Explanation in test_func
 
 id_to_func = {'add':test_add,
@@ -119,7 +125,8 @@ id_to_func = {'add':test_add,
               'lcm':test_lcm,
               'distance_2d':test_distance_2d,
               'distance_3d':test_distance_3d,
-              'is_prime':test_is_prime}
+              'is_prime':test_is_prime,
+              'robot_position':test_robot_position}
 
 def main_loop():
     tested_func = 0
@@ -135,3 +142,7 @@ def main_loop():
 
 
 main_loop()
+
+def test_all_challenges():
+    for challenge_id in id_to_func.keys():
+        id_to_func[challenge_id]()
